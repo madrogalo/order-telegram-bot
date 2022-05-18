@@ -1,0 +1,25 @@
+{
+  "name": "order-telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madrogalo/order-telegram-bot.git"
+  },
+  "author": "Ievhenii Yunchyck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madrogalo/order-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/madrogalo/order-telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16"
+  }
+}
