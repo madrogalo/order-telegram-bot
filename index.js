@@ -6,6 +6,7 @@ const bot = new TelegramApi(token, {polling: true})
 
 const {gameOptions, againOptions} = require('./options')
 
+
 bot.setMyCommands([
   {command: '/start', description: 'Початкове вітання'},
   {command: '/info', description: 'Інформація про користувача'},
